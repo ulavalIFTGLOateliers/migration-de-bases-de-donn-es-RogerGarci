@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 database = Database()
 
-
+#test
 @app.route("/")
 def index():
     table_names = database.get_table_names()
